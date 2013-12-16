@@ -1,0 +1,19 @@
+{
+	"name": "chlu/jackalope-test",
+	"description": "Jackalope test",
+	"authors": [
+		{
+			"name": "Christopher Hlubek",
+			"email": "hlubek@networkteam.com"
+		}
+	],
+	"require": {
+		"jackalope/jackalope": "*",
+		"jackalope/jackalope-doctrine-dbal": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Chlu\\JackalopeTest": "src/"
+		}
+	}
+}

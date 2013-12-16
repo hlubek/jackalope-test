@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+// app/console
+
+require_once(__DIR__ . '/../vendor/autoload.php');
+
+use Chlu\JackalopeTest\Application;
+
+$application = new Application('jackalope-test');
+$application->registerCommands();
+$application->run();
